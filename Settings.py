@@ -1,0 +1,21 @@
+#left-handed system!!!(Same as Unity)
+class Settings:
+    USE_ITA = False
+
+    SHOW_HEIGHT = 360 #360
+    SHOW_WIDTH = 640 #640
+    SSAA_RATIO = 4 # 4
+    FPS = 15 # 15
+
+    CAMERA_NEARCLIP = 1
+    CAMERA_FARCLIP = 100000
+    LIGHT_NEARCLIP = 1
+    LIGHT_FARCLIP = 100000
+
+    EPSILON = 0.0005
+
+    FOCAL = SHOW_HEIGHT * SSAA_RATIO
+    HEIGHT = SHOW_HEIGHT * SSAA_RATIO
+    WIDTH = SHOW_WIDTH * SSAA_RATIO
+    C_U = WIDTH // 2
+    C_V = HEIGHT // 2
